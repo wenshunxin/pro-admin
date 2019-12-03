@@ -8,10 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^3.3.2",
+    "echarts": "^4.5.0",
+    "element-ui": "^2.4.5",
+    "nprogress": "^0.2.0",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-countupjs": "^1.0.0",
+    "vue-i18n": "^8.15.0",
+    "vue-nice-loading": "^1.0.4",
     "vue-router": "^3.1.3",
+    "vuedraggable": "^2.23.2",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -24,6 +32,10 @@
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-theme-color-replacer": "^1.3.2"
   }
 }
