@@ -6,10 +6,10 @@
             row-key="id"
             border
             lazy
+            :expand-change="handleExpand"
             :default-expand-all="false"
             :tree-prop="{children:'children',hasChildren:'hasChildren'}"
         >   
-            <el-table-column type="selection" width="55"></el-table-column>
             <el-table-column prop="date" label="日期" sortable width="180">
                 <template slot-scope="scope">
                     <i class="el-icon-time"></i>
@@ -78,6 +78,10 @@ export default {
         },
         handleDelete(index,row){
             console.log(index,row);
+        },
+        handleExpand(row,expandedRows ){
+            console.log(row);
+            console.log(expandedRows )
         }
     }
 }

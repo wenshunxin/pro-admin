@@ -58,6 +58,7 @@ export default {
         .el-icon-s{
             font-size: 24px;
             cursor: pointer;
+            color: #333;
             margin-right: 10px;
         }
     }

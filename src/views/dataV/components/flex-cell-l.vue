@@ -122,7 +122,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scope>
     .flex-warp{
         width:100%;
         height: 100%;

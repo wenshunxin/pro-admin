@@ -28,11 +28,11 @@
     </div>
 </template>
 <script>
-import FlexCellI from "./data/components/flex-cell-l"
-import FlexCellC from "./data/components/flex-cell-c"
-import FlexCelllc from "./data/components/flex-cell-lc"
-import FlexCellr from "./data/components/flex-cell-r"
-import FlexCelllr from "./data/components/flex-cell-lr"
+import FlexCellI from "./components/flex-cell-l"
+import FlexCellC from "./components/flex-cell-c"
+import FlexCelllc from "./components/flex-cell-lc"
+import FlexCellr from "./components/flex-cell-r"
+import FlexCelllr from "./components/flex-cell-lr"
 export default {
     data(){
         return {
