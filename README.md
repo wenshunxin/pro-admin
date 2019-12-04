@@ -2,11 +2,11 @@
 
 ## pro-admin 包括tabs、换肤、语言切换、配置路由、消息提示、geo、大数据大屏......
 
-![首页]("./src/assets/images/1.png")
+![首页]("./1.png")
 
-![Geo]("./src/assets/images/2.png")
+![Geo]("./2.png")
 
-![大屏数据]("./src/assets/images/3.png")
+![大屏数据]("./3.png")
 
 ## Project 初始化
 ```
